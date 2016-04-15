@@ -10,13 +10,11 @@ body {
     background-color: #FBFBFB;
 }
 #headcontact {
-    position: fixed;
     margin-top: 10px;
     margin-right: 5px;
     top: 0px;
     right: 0px;
     color: #6D6D6D;
-/*    position: fixed;*/
 }
 .contact-header-label {
     color: #3D5686;
@@ -199,9 +197,14 @@ button {
         margin-bottom: 18px;
     }
 }
+@media (min-width: 1811px) {
+    #headcontact {
+        position: fixed;
+    }
+}
 @media (max-width: 1810px) {
     #headcontact {
-        display: none;
+        position: absolute;
     }
 }
 @media (min-width: 1200px) {
