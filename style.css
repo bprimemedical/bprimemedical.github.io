@@ -209,7 +209,9 @@ h4 {
     padding-top: 10px;
 }
 button {
-    outline: none;
+    outline: none;    
+    background: #F9F9F9;
+    border: none;
 }
 
 .modal {
