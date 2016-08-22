@@ -219,6 +219,7 @@ button {
     position: fixed; /* Stay in place */
     z-index: 4; /* Sit on top */
     padding-top: 200px; /* Location of the box */
+    padding-bottom: 50px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -296,6 +297,9 @@ button {
 @media (max-width: 990px) {
     #services .service-block-right {
         padding-left: 0px;
+    }
+    #footer #navigation li {
+        margin: 0 5px;
     }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
